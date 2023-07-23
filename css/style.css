@@ -888,7 +888,7 @@ h6 {
 }
 .aali_tm_about .center {
   width: 44%;
-  padding: 0px 100px 0px 140px;
+  padding: 0px 50px 0px 140px;
 }
 .aali_tm_about .center .title {
   width: 100%;
@@ -905,7 +905,7 @@ h6 {
   margin-bottom: 6px;
 }
 .aali_tm_about .center h3 {
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 700;
   letter-spacing: -0.2px;
 }
@@ -979,7 +979,7 @@ h6 {
   clear: both;
   float: left;
   background-color: #ba3c3c;
-  padding: 160px 0px 557px 0px;
+  padding: 160px 0px 100px 0px;
   position: relative;
 }
 .aali_tm_skills .skills_inner {
@@ -989,7 +989,7 @@ h6 {
   float: left;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .aali_tm_skills .border {
   position: absolute;
@@ -1049,6 +1049,8 @@ h6 {
   position: relative;
   top: -8px;
 }
+
+
 .dodo_progress {
   width: 100%;
   height: auto;
@@ -1072,6 +1074,15 @@ h6 {
   font-size: 21px;
   font-weight: 700;
   letter-spacing: -0.2px;
+}
+.progress_inner > p {
+  margin: 0px 0px 13px 0px;
+  width: 100%;
+  display: block;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  letter-spacing: 0.1px;
 }
 .progress_inner span.number {
   float: right;
@@ -1140,7 +1151,7 @@ h6 {
   float: left;
 }
 .help {
-  margin-top: -500px;
+  
   padding-top: 100px;
 }
 .aali_tm_portfolio .portfolio_filter {
@@ -1265,7 +1276,7 @@ h6 {
 .aali_tm_portfolio .portfolio_list .main_details {
   position: absolute;
   top: 22%;
-  width: auto;
+  width: 100%;
   text-align: center;
   bottom: -10px;
   left: 0px;
@@ -1285,11 +1296,13 @@ h6 {
   visibility: visible;
   margin-bottom: 50px;
 }
-.aali_tm_portfolio .portfolio_list .main_details h1 {
+.aali_tm_portfolio .portfolio_list .main_details  h1 {
   font-size: 21px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 700;
+  text-align: center;
 }
+
 .aali_tm_portfolio .portfolio_list .details {
   width: 100%;
   text-align: center;
@@ -1325,10 +1338,8 @@ h6 {
 }
 .aali_tm_portfolio .portfolio_list .details p {
   font-size: 16px;
-  color: #fff;
-  margin-inline-start: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: 4px;
 }
 .aali_tm_modalbox {
   position: fixed;
@@ -1725,28 +1736,7 @@ h6 {
   clear: both;
   float: left;
 }
-.aali_tm_modalbox .service_popup_informations .image {
-  width: 100%;
-  float: left;
-  position: relative;
-  margin-bottom: 45px;
-}
-.aali_tm_modalbox .service_popup_informations .image img {
-  position: relative;
-  min-width: 100%;
-  opacity: 0;
-}
-.aali_tm_modalbox .service_popup_informations .image .main {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
+
 .aali_tm_modalbox .service_popup_informations .main_title {
   width: 100%;
   float: left;
@@ -1798,7 +1788,7 @@ h6 {
   padding-top: 160px;
 }
 .aali_tm_resume .content_inner {
-  width: 75%;
+  width: 100%;
   margin-top: 85px;
   float: left;
 }
@@ -2095,7 +2085,7 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	11) AALI NEWS
+/*	11) AALI EXPERIENCES
 /*---------------------------------------------------*/
 
 .aali_tm_news {
@@ -2164,7 +2154,7 @@ h6 {
   transform: scale(1.1) translateZ(0);
 }
 .aali_tm_news .news_list ul li .details {
-  width: 41.6666%;
+  width: 66.6666%;
   padding: 0px 70px;
 }
 .aali_tm_news .news_list ul li .details .category {
@@ -2174,6 +2164,7 @@ h6 {
 .aali_tm_news .news_list ul li .details .category a {
   text-decoration: none;
   color: #ea4343;
+  font-size: 39px;
   font-weight: 700;
   font-family: 'Josefin Sans';
 }
@@ -2199,10 +2190,7 @@ h6 {
 .aali_tm_news .news_list ul li .date {
   font-size: 16px;
 }
-.aali_tm_news .news_list ul li .button {
-  width: 25%;
-  text-align: center;
-}
+
 .aali_tm_learn_more {
   width: 100%;
   float: left;
@@ -2549,6 +2537,17 @@ input[type='number'] {
   background-color: #3c3c3c;
   top: 60px;
   left: 80px;
+}
+
+.aali_tm_contact .button_area button {
+  background-color: #af4c4c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 /*---------------------------------------------------*/
