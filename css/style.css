@@ -1,31 +1,5 @@
 @charset "utf-8";
 
-/*
-/*	Copyright (c) 2021 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-01)	AALI BASE
-02)	AALI MOBILE MENU
-03) AALI HEADER
-04) AALI HERO
-05) AALI ABOUT
-06) AALI SKILLS
-07) AALI PORTFOLIO
-08) AALI SERVICES
-09) AALI RESUME
-10) AALI TESTIMONIALS
-11) AALI NEWS
-12) AALI COUNTER
-13) AALI CONTACT
-14) AALI COPYRIGHT
-15) AALI CURSOR
-16) AALI MEDIA QUERIES (FOR SMALL DEVIVES)
-
-
-/*---------------------------------------------------*/
-/*	01) AALI BASE
-/*---------------------------------------------------*/
 
 html {
   overflow-x: hidden;
@@ -1251,16 +1225,13 @@ h6 {
 }
 .aali_tm_portfolio .portfolio_list .svg {
   position: absolute;
-  top: 13%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 50px;
-  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
   color: #fff;
-  margin-top: 10px;
-  opacity: 0;
-  visibility: hidden;
+  margin-left: 9px;
+  margin-top: -2px;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1591,6 +1562,73 @@ h6 {
   z-index: 5;
 }
 
+/* Button Lainya */
+.aali_tm_button4 {
+  height: auto;
+  clear: both;
+  float: right;
+}
+.aali_tm_hero .aali_tm_button4 {
+  width: auto;
+}
+.aali_tm_button4.border a {
+  background-color: transparent;
+  color: #15111e;
+}
+.aali_tm_button4.border .svg {
+  color: #000000;
+}
+.aali_tm_button4 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Josefin Sans';
+  display: inline-block;
+  background-color: #ea4343;
+  font-weight: 700;
+  position: relative;
+  padding: 15px 73px 15px 46px;
+  border-radius: 6px;
+  border: 2px solid #ea4343;
+  white-space: nowrap;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aali_tm_button4 a .svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  margin-left: 9px;
+  margin-top: -2px;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aali_tm_button4 a:hover {
+  background-color: transparent;
+  color: #15111e;
+}
+.aali_tm_button4 a:hover .svg {
+  color: #15111e;
+}
+.aali_tm_button4.border a:hover {
+  background-color: #ea4343;
+  color: #fff;
+}
+.aali_tm_button4.border a:hover .svg {
+  color: #fff;
+}
+
+
 /*---------------------------------------------------*/
 /*	08) AALI SERVICES
 /*---------------------------------------------------*/
@@ -1736,6 +1774,12 @@ h6 {
   clear: both;
   float: left;
 }
+.aali_tm_modalbox .service_popup_informations .image {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
 
 .aali_tm_modalbox .service_popup_informations .main_title {
   width: 100%;
@@ -1766,10 +1810,19 @@ h6 {
 .aali_tm_modalbox .service_popup_informations .descriptions p:last-child {
   margin-bottom: 0px;
 }
+.aali_tm_modalbox .service_popup_informations .popup_service_image {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
 
 /* Button Lainya */
 .aali_tm_button3 {
-  width: 20%;
   height: auto;
   clear: both;
   float: right;
@@ -1831,6 +1884,73 @@ h6 {
   color: #fff;
 }
 .aali_tm_button3.border a:hover .svg {
+  color: #fff;
+}
+
+/* Button Lainya */
+
+/* Button Lainya */
+.button_popup {
+  width: 20%;
+  height: auto;
+  clear: both;
+  float: right;
+}
+
+.button_popup.border a {
+  background-color: transparent;
+  color: #15111e;
+}
+.button_popup.border .svg {
+  color: #000000;
+}
+.button_popup a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Josefin Sans';
+  display: inline-block;
+  background-color: #ea4343;
+  font-weight: 700;
+  position: relative;
+  padding: 15px 73px 15px 46px;
+  border-radius: 6px;
+  border: 2px solid #ea4343;
+  white-space: nowrap;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.button_popup a .svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  margin-left: 9px;
+  margin-top: -2px;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.button_popup a:hover {
+  background-color: transparent;
+  color: #15111e;
+}
+.button_popup a:hover .svg {
+  color: #15111e;
+}
+.button_popup.border a:hover {
+  background-color: #ea4343;
+  color: #fff;
+}
+.button_popup.border a:hover .svg {
   color: #fff;
 }
 
@@ -1993,7 +2113,7 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	10) AALI TESTIMONIALS
+/*	SECTION AWARDS
 /*---------------------------------------------------*/
 
 .aali_tm_testimonials {
@@ -2224,7 +2344,7 @@ h6 {
 /* Button Lainya */
 
 /*---------------------------------------------------*/
-/*	11) AALI WORK EXPERIENCES
+/*	SECTION WORK EXPERIENCE
 /*---------------------------------------------------*/
 
 .aali_tm_news {
@@ -2429,91 +2549,7 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	12) AALI COUNTER
-/*---------------------------------------------------*/
-
-.aali_tm_counter {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  background-color: #ba3c3c;
-  padding: 125px 0px 107px 0px;
-  position: relative;
-}
-.aali_tm_counter .counter_list {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-}
-.aali_tm_counter .counter_list ul {
-  margin: 0px;
-  list-style-type: none;
-}
-.aali_tm_counter .counter_list ul li {
-  margin: 0px;
-  width: 33.3333%;
-  float: left;
-}
-.aali_tm_counter .counter_list .list_inner {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  position: relative;
-  padding: 0px 20px;
-}
-.aali_tm_counter .counter_list .value span {
-  font-family: 'Josefin Sans';
-  font-size: 72px;
-  color: #f4f5fe;
-  font-weight: 700;
-  position: relative;
-}
-.aali_tm_counter .counter_list .value .big {
-  font-family: 'Josefin Sans';
-  font-size: 72px;
-  color: #f4f5fe;
-  font-weight: 700;
-}
-.aali_tm_counter .counter_list .value .small {
-  font-size: 36px;
-  color: #f4f5fe;
-  position: absolute;
-  top: -18px;
-  left: 100%;
-}
-.aali_tm_counter .counter_list .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.aali_tm_counter .counter_list .wrapper .text {
-  padding-left: 40px;
-  position: relative;
-  top: -8px;
-}
-.aali_tm_counter .counter_list .wrapper .text h3 {
-  font-size: 30px;
-  font-weight: 600;
-  color: #f4f5fe;
-  letter-spacing: -0.2px;
-  line-height: 1.4;
-}
-.aali_tm_counter .border {
-  position: absolute;
-  right: 0px;
-  width: 1000pc;
-  height: 520px;
-  border: 6px solid #fff;
-  left: 100%;
-  margin-left: -160px;
-  top: -83px;
-}
-
-/*---------------------------------------------------*/
-/*	13) AALI CONTACT
+/*	SECTION KONTAK
 /*---------------------------------------------------*/
 
 .aali_tm_contact {
@@ -3102,8 +3138,8 @@ input[type='number'] {
     margin-right: 30px;
   }
   .aali_tm_portfolio .portfolio_list .svg {
-    width: 42px;
-    height: 42px;
+    width: 15px;
+    height: 15px;
   }
   .aali_tm_skills .border {
     bottom: -167px;
